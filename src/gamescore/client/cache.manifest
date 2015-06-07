@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# rev 2
+CACHE:
+# CSS
+css/style.css
+# JS
+js/script.js
+js/cache.js
+# HTML
+index.html
+NETWORK:
+*

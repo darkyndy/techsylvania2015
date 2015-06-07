@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+  <head>
+    <title>Color game</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="score">Score: <span id="score"></span></div>
+    <div class="responseTime">Response time: <span id="responseTime"></span></div>
+    <div class="avgResponseTime">Avg. response time: <span id="avgResponseTime"></span></div>
+    <section id="content" class="content"></section>
+    <footer class="buttonContainer">
+      <div class="button">
+        <div id="matchFalse" class="buttonNo">NO</div>
+      </div>
+      <div class="button">
+        <div id="matchTrue" class="buttonYes">YES</div>
+      </div>
+    </footer>
+    <!-- <script src="http://js.leapmotion.com/0.2.0-beta1/leap.min.js"></script> -->
+    <script src="js/leap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
